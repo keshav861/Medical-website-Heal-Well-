@@ -1,0 +1,74 @@
+body
+{
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(#2b1055,#7597de);
+}
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.pricing-plan {
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 160px;
+  margin-left: 25px;
+  padding: 30px;
+  background: linear-gradient(-45deg,#de6262 ,#ffb88c);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 1.0);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.pricing-plan:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,1.0);
+}
+
+.pricing-plan h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.pricing-plan .price {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.pricing-plan .price span {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.pricing-plan ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.pricing-plan li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btn-select {
+  background-color: #9a4eff;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-top: auto;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-select:hover {
+  background-color: #27ae60;
+}
